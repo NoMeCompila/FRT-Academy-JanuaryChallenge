@@ -28,7 +28,8 @@ Este proyecto surge como primer desafío mensual para la academia de free range 
 
 - Python 3.x o superior
 - Conexión a internet
-- Cambiar las rutas absolutas (todavia no descubrí como hacer que funcione en pytest con relative paths)
+- ~~Cambiar las rutas absolutas (todavia no descubrí como hacer que funcione en pytest con relative paths)~~
+- ya arregle las rutas
 
 ## Conceptos Utilizados
 - POM
