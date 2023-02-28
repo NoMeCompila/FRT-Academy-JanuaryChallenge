@@ -33,5 +33,5 @@ class BasePage:
         return self.wait.until(EC.visibility_of_element_located(by_locator)).get_attribute("class")
 
     # go back to the previous page
-    def go_back(self):
+    def go_back(self) -> None:
         self.driver.back()

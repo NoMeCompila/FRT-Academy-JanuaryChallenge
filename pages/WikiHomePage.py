@@ -10,5 +10,3 @@ class WikiHomePage(BasePage):
 
     def __init__(self, driver):
         super(WikiHomePage, self).__init__(driver)
-
-

@@ -1,12 +1,9 @@
-import time
-
-from selenium.webdriver.chrome.webdriver import WebDriver
 import pytest
-
-from pages.SeleniumWiki import SeleniumWiki
-from pages.WikiHomePage import WikiHomePage
 from utilities import keys
 from tests.conftest import load_data
+from pages.ArticleWiki import ArticleWiki
+from pages.WikiHomePage import WikiHomePage
+from selenium.webdriver.chrome.webdriver import WebDriver
 
 
 class TestWiki:
@@ -23,9 +20,14 @@ class TestWiki:
         wiki_home.do_send_key(wiki_home.search_bar, element)
         wiki_home.do_click(wiki_home.lupe_button)
 
-        selenium_wiki = SeleniumWiki(init_driver)
-        assert selenium_wiki.get_text(selenium_wiki.selenium_wiki_title) == keys.selenium_wiki_tit
+        article_wiki = ArticleWiki(init_driver)
 
-        selenium_wiki.go_back()
+        if "Selenium" in article_wiki.get_text(article_wiki.selenium_wiki_title):
+            assert article_wiki.get_text(article_wiki.selenium_wiki_title) == keys.selenium_wiki_tit
+        elif "Appium" in article_wiki.get_text(article_wiki.selenium_wiki_title):
+            assert article_wiki.get_text(article_wiki.selenium_wiki_title) == keys.appium_wiki_tit
+        elif "Jenkins" in article_wiki.get_text(article_wiki.selenium_wiki_title):
+            assert article_wiki.get_text(article_wiki.selenium_wiki_title) == keys.jenkins_wiki_tit
+
+        article_wiki.go_back()
         assert wiki_home.get_attr(wiki_home.wiki_title) == keys.wiki_title_atr
-
