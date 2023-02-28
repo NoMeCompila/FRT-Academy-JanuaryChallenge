@@ -31,15 +31,17 @@ sobre un tema en especifico de los resultados esperados.
 
 ## Instrucciones de uso
 
-Una vez que tenemos todo instalado y configurado podemos setear las opciones de busqueda (archivo data/search_Data.json) y también el navegador (archivo Browsers/config.json) 
-simplemente cambiamos el valor de la propiedad browser que por defecto viene con Chrome por las demas que acepta ("Edge", "HEadless Chome", "Firefox").
-parP ejecutar la búsqueda en paralelo de las 3 opciones y generar un reporte html ejecutamos el siguiente script en el entorno virtual de la terminal de python:
-py.test -m search -n 3 --html=wikireport.html
+Una vez que tenemos todo instalado y configurado podemos setear las opciones de busqueda (archivo data/search_data.json) y también el navegador (archivo Browsers/config.json) 
+simplemente cambiamos el valor de la propiedad browser que por defecto viene con Chrome por las demas que acepta ("Edge", "Headless Chome", "Firefox").
+para ejecutar la búsqueda en paralelo de las 3 opciones y generar un reporte html ejecutamos el siguiente script en el entorno virtual de la terminal de python:
 
+```
+py.test -m search -n 3 --html=wikireport.html
+```
 ## Contribuciones
 
-me pueden contactar por el discord de freerangetester aparezco como Fer Caballero o por linkedin que esta en mi inicio de perfil de github y la foto de nirvana de perfil, soy Jr TAE y recien estoy aprendiendo, 
-acepto cualquier sugerencia o critica constructiva que crean necesario hacerme saber, así como tambien si quieren preguntarme algo que no sepan de python o selenium 
+me pueden contactar por el discord de freerangetester aparezco como Fer Caballero y la foto de nirvana o por linkedin que esta en mi inicio de perfil de github  de perfil, soy Jr TAE y recién estoy aprendiendo, 
+acepto cualquier sugerencia o crítica constructiva que crean necesario hacerme saber, así como también si quieren preguntarme algo que no sepan de python o selenium 
 me pueden contactar  
 
 ## Autor
