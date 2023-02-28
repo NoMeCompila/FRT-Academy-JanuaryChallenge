@@ -30,6 +30,15 @@ Este proyecto surge como primer desafío mensual para la academia de free range 
 - Conexión a internet
 - Cambiar las rutas absolutas (todavia no descubrí como hacer que funcione en pytest con relative paths)
 
+## Conceptos Utilizados
+- POM
+- POO
+- asserts con pytest
+- Data Provider
+- Creación de reportes
+- Ejecucion de tests en paralelo
+- Múltiple Browsers
+
 ## Funcionamiento
 
 1) navega a wikipedia.org y verifica el título correcto
