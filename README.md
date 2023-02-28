@@ -18,14 +18,14 @@ sobre un tema en especifico de los resultados esperados.
 ## Requisitos
 
 - Python 3.x o superior
-- Conexion a internet
+- Conexión a internet
 - Cambiar las rutas absolutas (todavia no descubrí como hacer que funcione en pytest con relative paths)
 
 ## Funcionamiento
 
 1) navega a wikipedia.org y verifica el título correcto
 2) Se situa en la barra de busqueda y escribe el tema a buscar (Selenium, Appium)
-3) HAce click en el boton de la lupa para buscar 
+3) Hace click en el boton de la lupa para buscar 
 4) Verifica que el título sea el correspondiente al tema buscado
 5) Vielve al Homepage y verifica el título
 
