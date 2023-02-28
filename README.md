@@ -8,6 +8,12 @@
   <img src="https://img-c.udemycdn.com/user/200_H/69063786_13e8_4.jpg" alt="FRT-img">
 </p>
 
+<div style="display: flex; justify-content: center; flex-direction: row">
+      <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" style="width: 20px;">
+      <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" style="width: 20px;">
+</div>
+
+
 <p align="center">
   En este proyecto se pone en práctica selenium webdriver junto con la libreria pytest para realizar la automatización de pruebas de busquedas en wikipedia.
 </p>
@@ -51,7 +57,7 @@ Este proyecto surge como primer desafío mensual para la academia de free range 
 ## Instrucciones de uso
 
 Una vez que tenemos todo instalado y configurado podemos setear las opciones de busqueda (archivo data/search_data.json) y también el navegador (archivo Browsers/config.json) 
-simplemente cambiamos el valor de la propiedad browser que por defecto viene con Chrome por las demas que acepta ("Edge", "Headless Chome", "Firefox").
+simplemente cambiamos el valor de la propiedad browser que por defecto viene con Chrome por las demas que acepta ("Edge", "Headless Chrome", "Firefox").
 para ejecutar la búsqueda en paralelo de las 3 opciones y generar un reporte html ejecutamos el siguiente script en el entorno virtual de la terminal de python:
 
 ```
