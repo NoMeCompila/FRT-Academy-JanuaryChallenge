@@ -1,11 +1,20 @@
-# Free Range Testers Academy January Challenge
 
-En este proyecto se pone en práctica selenium webdriver junto con la libreria pytest para realizar la automatización de pruebas de busquedas en wikipedia.
+<h1>
+<p align="center">
+  Free Range Testers Academy January Challenge
+</p>
+</h1>
+<p align="center">
+  <img src="https://img-c.udemycdn.com/user/200_H/69063786_13e8_4.jpg" alt="FRT-img">
+</p>
+
+<p align="center">
+  En este proyecto se pone en práctica selenium webdriver junto con la libreria pytest para realizar la automatización de pruebas de busquedas en wikipedia.
+</p>
 
 ## Descripción del proyecto
 
-Este proyecto surge como primer desafío mensual para la academia de free range testers en el cual el objetivo es ingresar a wikipedia.org y verificar que una busqueda 
-sobre un tema en especifico de los resultados esperados.
+Este proyecto surge como primer desafío mensual para la academia de free range testers en el cual el objetivo es ingresar a wikipedia.org y verificar que una busqueda sobre un tema en especifico de los resultados esperados.
 
 ## Lenguajes y librerías utilizadas
 - python 3.10
