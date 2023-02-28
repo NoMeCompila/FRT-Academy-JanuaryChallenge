@@ -7,13 +7,11 @@
 <p align="center">
   <img src="https://img-c.udemycdn.com/user/200_H/69063786_13e8_4.jpg" alt="FRT-img">
 </p>
-
-<div style="display: flex; justify-content: center; flex-direction: row">
-      <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" style="width: 20px;">
-      <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" style="width: 20px;">
+<div align="center">
+      <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" style="width: 40px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" style="width: 40px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pytest_logo.svg/2048px-Pytest_logo.svg.png" style="width: 50px;">
 </div>
-
-
 <p align="center">
   En este proyecto se pone en práctica selenium webdriver junto con la libreria pytest para realizar la automatización de pruebas de busquedas en wikipedia.
 </p>
