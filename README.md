@@ -83,6 +83,9 @@ para ejecutar la búsqueda en paralelo de las 3 opciones y generar un reporte ht
 ```
 py.test -m search -n 3 --html=wikireport.html
 ```
+luego de la ejecución nos queda el siguiente archivo donde podemos ver los resultados de la ejecución en detalle y de manera fácil
+![image](https://user-images.githubusercontent.com/54701174/221791632-6f9529a7-7818-41ca-b75e-738a83b0a6f9.png)
+
 ## Contribuciones
 
 me pueden contactar por el discord de freerangetester aparezco como Fer Caballero y la foto de nirvana o por linkedin que esta en mi inicio de perfil de github  de perfil, soy Jr TAE y recién estoy aprendiendo, 
@@ -96,3 +99,6 @@ Fernando Caballero 2023 Corrientes Argentina
 ## Licencia
 
 Usenla como quieran no me importa xd
+
+
+
