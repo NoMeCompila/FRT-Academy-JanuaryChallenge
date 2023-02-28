@@ -34,6 +34,28 @@ Este proyecto surge como primer desafío mensual para la academia de free range 
 - Conexión a internet
 - ~~Cambiar las rutas absolutas (todavia no descubrí como hacer que funcione en pytest con relative paths)~~
 - ya arregle las rutas
+### comandos para instalar las librerias necesarias
+
+- entorno virtual de python
+```
+pip install pipenv
+```
+- selenium
+```
+pipenv install selenium
+```
+- pytest
+```
+pipenv install pytest
+```
+- reportes html
+```
+pipenv install pytest-html
+```
+- ejecucion en paralelo
+```
+pipenv install pytest-xdist
+```
 
 ## Conceptos Utilizados
 - POM
