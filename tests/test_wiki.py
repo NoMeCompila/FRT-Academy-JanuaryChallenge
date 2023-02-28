@@ -4,11 +4,13 @@ from tests.conftest import load_data
 from pages.ArticleWiki import ArticleWiki
 from pages.WikiHomePage import WikiHomePage
 from selenium.webdriver.chrome.webdriver import WebDriver
+import os
 
 
 class TestWiki:
 
-    data = load_data(r"C:\Users\fernando.caballero\Desktop\FreeRangeTestersAcademy\January Challenge\data\search_data.json")
+    ruta_datos = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data', r'..\data\search_data.json'))
+    data = load_data(ruta_datos)
 
     @pytest.mark.search
     @pytest.mark.parametrize("element", data["input_search"])

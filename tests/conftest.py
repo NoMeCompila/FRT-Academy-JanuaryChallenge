@@ -1,5 +1,6 @@
-import pytest
+import os
 import json
+import pytest
 import selenium
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -17,7 +18,9 @@ def load_data(path):
 # open the configuration json file and verify that the browser corresponds to a valid value
 @pytest.fixture()
 def config(scope="session"):
-    with open(r"C:\Users\fernando.caballero\Desktop\FreeRangeTestersAcademy\January Challenge\Browsers\config.json") as config_file:
+    ruta_datos = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data', r'..\Browsers\config.json'))
+
+    with open(ruta_datos) as config_file:
         config = json.load(config_file)
     assert config["browser"] in ["Firefox", "Chrome", "Edge", "Headless Chrome"], f"Invalid browser value in " \
                                                                                   f"configuration: {config['browser']}"
